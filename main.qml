@@ -23,6 +23,8 @@ ApplicationWindow {
         }
     }
 
+
+
     MainForm {
         anchors.fill: parent
         button1.onClicked: messageDialog.show(qsTr("Button 1 pressed"))
